@@ -10,58 +10,66 @@
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a class="li" href="#index.html">Home</a></li>
-        <li><a class="li" href="#how-it-works.html">How It Works</a></li>
-        <li><a class="li" href="#pricing.html">Pricing</a></li>
-        <li><a class="current" href="#sign-up">Sign Up</a></li>
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner" class="masthead">
+    <nav id="nav" role="navigation" tabindex="0">
+      <h1><img src="thelogo.jpg" alt="Mint"></h1>
+      <ul class="list-group list-group-inline">
+        <li><a class="current" href="index.html">Home</a></li>
+        <li><a class="li" href="tour.html">How It Works</a></li>
+        <li><a class="li" href="pricing.html">Pricing</a></li>
+        <li><a class="li" href="sign-up.html">Sign Up</a></li>
       </ul>
     </nav>
   </header>
 
-    <main>
+  <main id="main" role="main" tabindex="0">
 
-        <section class="contact pad-t-2 pad-b-2">
-          <div class="max-length">
-            <h1>Free Account Sign Up</h1>
+    <div class=" grid contact pad-t-2 pad-b-2">
+      <div class="unit">
+        <div class="max-length">
+          <h1>Free Account Sign Up</h1>
 
-            <form class="push-0" method="POST" action="https://formspree.io/lees0029@algonquinlive.com">
+          <form class="push-0" method="POST" action="https://formspree.io/lees0029@algonquinlive.com">
 
-              <div class="push">
-                <label for="email">Email Address</label>
-                <input id="email" type="email" name="email" required>
-              </div>
+            <div class="push">
+              <label for="email">Email Address</label>
+              <input id="email" type="email" name="email" required>
+            </div>
 
-              <div class="push">
-                <label for="phone">Phone Number</label>
-                <input id="phone" type="number" name="number" required>
-              </div>
+            <div class="push">
+              <label for="phone">Phone Number</label>
+              <input id="phone" type="number" name="number" required>
+            </div>
 
+            <div class="push">
+              <label for="password">Password</label>
+              <input id="password" type="password" name="password" required>
+            </div>
 
-              <div class="push">
-                <label for="password">Password</label>
-                <input id="password" type="password" name="password" required>
-              </div>
+            <div>
+              <button class="btn btn-light mega" type="submit">Create Account</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
 
-              <div>
-                <button class="btn btn-light mega" type="submit">Create Account</button>
-              </div>
-            </form>
-          </div>
-        </section>
-      </body>
-    </main>
+  <footer role="contentinfo" class="footer pad-t-1-2 pad-b-1-2 wrapper gutter-1-2">
+    <section>
+      <div>Download Our Free Mobile App</div>
+    </section>
 
-    <footer>
-
-      <section>
-        <div>Download Our Free Mobile App</div>
-      </section>
-
-      <section>
-        <p>Media Inquiries</p>
-        <p>© 2018 Intuit, Inc. All rights reserved</p>
-      </section>
-    </footer>
+    <section>
+      <p>Media Inquiries</p>
+      <p>© 2018 Intuit, Inc. All rights reserved</p>
+    </section>
+  </footer>
+</body>
+</html>

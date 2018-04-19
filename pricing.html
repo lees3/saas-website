@@ -10,61 +10,72 @@
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a class="li" href="#index.html">Home</a></li>
-        <li><a class="li" href="#how-it-works.html">How It Works</a></li>
-        <li><a class="current" href="#pricing.html">Pricing</a></li>
-        <li><a class="li" href="#sign-up">Sign Up</a></li>
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner" class="masthead">
+    <nav id="nav" role="navigation" tabindex="0">
+      <h1><img src="thelogo.jpg" alt="Mint"></h1>
+      <ul class="list-group list-group-inline">
+        <li><a class="current" href="index.html">Home</a></li>
+        <li><a class="li" href="tour.html">How It Works</a></li>
+        <li><a class="li" href="pricing.html">Pricing</a></li>
+        <li><a class="li" href="sign-up.html">Sign Up</a></li>
       </ul>
     </nav>
   </header>
-  <main>
 
-  <div class="table-wrapper scrollable">
-    <table class="push-0">
-      <caption class="mega">Pricing</caption>
+  <main id="main" role="main" tabindex="0">
+    <h1>Pricing</h1>
 
-      <thead>
-        <tr>
-          <th class="free trial" scope="col">Free Trial</th>
-          <th class="starter" scope="col">Starter</th>
-          <th class="basic" scope="col">Basic</th>
-          <th class="professional" scope="col">Professional</th>
-        </tr>
-      </thead>
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <div class="table-wrapper scrollable">
+          <table class="push-0">
+            <caption class="mega">Pricing</caption>
 
-        <tbody>
+            <thead>
+              <tr>
+                <th class="free trial" scope="col">Free Trial</th>
+                <th class="starter" scope="col">Starter</th>
+                <th class="basic" scope="col">Basic</th>
+                <th class="professional" scope="col">Professional</th>
+              </tr>
+            </thead>
 
-          <tr>
-            <th class="not-bold italic" scope="row">Example row</th>
-            <td>Example 1</td>
-            <td>Example 2</td>
-            <td>Example 3</td>
-            <td>Example 4</td>
-          </tr>
+            <tbody>
 
-          <tr>
-            <th scope="row">Example Row 2</th>
-            <td>Example a</td>
-            <td>Example b</td>
-            <td>Example c</td>
-            <td>Example d</td>
-          </tr>
-        </tbody>
+              <tr>
+                <th class="not-bold italic" scope="row">Example row</th>
+                <td>Example 1</td>
+                <td>Example 2</td>
+                <td>Example 3</td>
+                <td>Example 4</td>
+              </tr>
 
-        <tfoot class="bold">
-          <tr>
-            <th scope="row">Total</th>
-            <td colspan="4">5</td>
-          </tr>
-        </tfoot>
-      </table>
+              <tr>
+                <th scope="row">Example Row 2</th>
+                <td>Example a</td>
+                <td>Example b</td>
+                <td>Example c</td>
+                <td>Example d</td>
+              </tr>
+            </tbody>
+
+            <tfoot class="bold">
+              <tr>
+                <th scope="row">Total</th>
+                <td colspan="4">5</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
     </div>
-</main>
-
-</body>
+  </main>
 
   <footer>
     <section>
@@ -77,8 +88,10 @@
       <div>Download Our Free Mobile App</div>
     </section>
 
-    <section>
+    <div role="contentinfo" class="footer pad-t-1-2 pad-b-1-2 wrapper gutter-1-2">
       <p>Media Inquiries</p>
       <p>© 2018 Intuit, Inc. All rights reserved</p>
-    </section>
+    </div>
   </footer>
+</body>
+</html>
