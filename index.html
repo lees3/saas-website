@@ -11,9 +11,15 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul class="list-group list-group-inline">
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner" class="masthead">
+    <nav id="nav" role="navigation" tabindex="0">
+      <ul class="skip-links list-group list-group-inline">
         <li><a class="current" href="#index.html">Home</a></li>
         <li><a class="li" href="#how-it-works.html">How It Works</a></li>
         <li><a class="li" href="#pricing.html">Pricing</a></li>
@@ -22,59 +28,59 @@
     </nav>
   </header>
 
-  <main>
+  <main id="main" role="main" tabindex="0">
     <div class="grid">
-    <div class="unit banner text-center">
-      <img class="img-flex embed embed-16by9 embed-item" src="images/andromeda.jpg" alt="">
-      <div class="banner-content">
+      <div class="unit text-center">
+        <img class="img-flex embed embed-16by9 embed-item" src="images/andromeda.jpg" alt="">
+        <div>
 
-      <div>
-      <h1>It's All Coming Together</h1>
-      <p>When you’re on top of your money, life is good. We help you effortlessly manage your finances in one place</p>
-    </div>
-  </div>
-</div>
-            <div class="unit xs-1 s-1 m-1 l-1">
-                <img src="http://placehold.it/32x32" alt="">
-                <h2>Budgets?</h2>
-                <div>
-                  <a class="btn btn-small" href="#">Read More</a>
-                </div>
-            </div>
-
-            <div class="unit xs-1 s-1 m-1 l-1">
-                <img src="http://placehold.it/32x32" alt="">
-                <h2>Bills?</h2>
-                <div>
-                  <a class="btn btn-small" href="#">Read More</a>
-                </div>
-            </div>
-
-            <div class="unit xs-1 s-1 m-1 l-1">
-                <img src="http://placehold.it/32x32" alt="">
-                <h2>Credit?</h2>
-                <div>
-                  <a class="btn btn-small" href="#">Read More</a>
-                </div>
-            </div>
+          <div>
+            <h1>It's All Coming Together</h1>
+            <p>When you’re on top of your money, life is good. We help you effortlessly manage your finances in one place</p>
           </div>
-    </main>
-      <footer>
-        <section>
-          <p>Sign up for Mint today</p>
-          <div>Sign Up Free</div>
-          <div>Log In</div>
-        </section>
+        </div>
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <img src="http://placehold.it/32x32" alt="">
+        <h2>Budgets?</h2>
+        <div>
+          <a class="btn btn-small" href="#">Read More</a>
+        </div>
+      </div>
 
-        <section>
-          <div>Download Our Free Mobile App</div>
-        </section>
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <img src="http://placehold.it/32x32" alt="">
+        <h2>Bills?</h2>
+        <div>
+          <a class="btn btn-small" href="#">Read More</a>
+        </div>
+      </div>
 
-        <section>
-          <p>Media Inquiries</p>
-          <p>© 2018 Intuit, Inc. All rights reserved</p>
-        </section>
-      </footer>
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <img src="http://placehold.it/32x32" alt="">
+        <h2>Credit?</h2>
+        <div>
+          <a class="btn btn-small" href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="footer pad-t-1-2 pad-b-1-2 wrapper gutter-1-2">
+    <section>
+      <p>Sign up for Mint today</p>
+      <div>Sign Up Free</div>
+      <div>Log In</div>
+    </section>
 
-    </body>
-      </html>
+    <section>
+      <div>Download Our Free Mobile App</div>
+    </section>
+
+    <section>
+      <p>Media Inquiries</p>
+      <small class="push-0 micro">© 2018 Intuit, Inc. All rights reserved</small>
+    </section>
+  </footer>
+
+</body>
+</html>
