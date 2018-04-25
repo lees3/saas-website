@@ -8,6 +8,7 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
 </head>
 <body>
 
@@ -18,12 +19,12 @@
 
   <header role="banner" class="masthead">
     <nav id="nav" role="navigation" tabindex="0">
-      <h1><img src="thelogo.jpg" alt="Mint"></h1>
-      <ul class="list-group list-group-inline">
+      <img src="thelogo.jpg" alt="Mint">
+      <ul class="list-group list-group-inline embed embed-16by9 embed-item">
         <li><a class="current" href="index.html">Home</a></li>
         <li><a class="li" href="tour.html">How It Works</a></li>
         <li><a class="li" href="pricing.html">Pricing</a></li>
-        <li><a class="li" href="sign-up.html">Sign Up</a></li>
+        <li class="green-btn"><a class="li" href="sign-up.html">Sign Up</a></li>
       </ul>
     </nav>
   </header>
@@ -49,26 +50,64 @@
             <tbody>
 
               <tr>
-                <th class="not-bold italic" scope="row">Example row</th>
-                <td>Example 1</td>
-                <td>Example 2</td>
-                <td>Example 3</td>
-                <td>Example 4</td>
+                <th class="not-bold italic" scope="row">Per Month</th>
+                <td>Free</td>
+                <td>$30</td>
+                <td>$60</td>
               </tr>
 
               <tr>
-                <th scope="row">Example Row 2</th>
-                <td>Example a</td>
-                <td>Example b</td>
-                <td>Example c</td>
-                <td>Example d</td>
+                <th scope="row">User Accounts</th>
+                <td>1</td>
+                <td>10</td>
+                <td>100</td>
+              </tr>
+
+
+              <tr>
+                <th scope="row">Forecasts</th>
+                <td>Base Forcast</td>
+                <td>Base Forcast</td>
+                <td>Base Forcast</td>
               </tr>
             </tbody>
 
+            <tr>
+              <th scope="row">Additional Scenarios</th>
+              <td>5</td>
+              <td>10</td>
+              <td>100</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Future Forcasts</th>
+              <td>3 Years Future Forcasts</td>
+              <td>3 Years Future Forcasts</td>
+              <td>3 Years Future Forcasts</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Cash Summary</th>
+              <td>Weekly</td>
+              <td>Weekly</td>
+              <td>Weekly</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Support</th>
+              <td>Email</td>
+              <td>Email</td>
+              <td>Primary</td>
+            </tr>
+
+          </tbody>
+
             <tfoot class="bold">
               <tr>
-                <th scope="row">Total</th>
-                <td colspan="4">5</td>
+                <th scope="row"></th>
+                <td><div class="btn green-btn">Sign Up</div></td>
+                <td><div class="btn green-btn">Sign Up</div></td>
+                <td><div class="btn green-btn">Sign Up</div></td>
               </tr>
             </tfoot>
           </table>
@@ -77,21 +116,20 @@
     </div>
   </main>
 
-  <footer>
-    <section>
-      <p>Sign up for Mint today</p>
-      <div>Sign Up Free</div>
-      <div>Log In</div>
-    </section>
+      <section>
+        <div class="white-text">Sign up for Mint today</div>
+        <div class="btn green-btn">Sign Up Free</div>
+        <div class="btn blue-btn">Log In</div>
+      </section>
 
-    <section>
-      <div>Download Our Free Mobile App</div>
-    </section>
+      <section>
+        <div class="btn green-btn">Download Our Free Mobile App</div>
+      </section>
 
-    <div role="contentinfo" class="footer pad-t-1-2 pad-b-1-2 wrapper gutter-1-2">
-      <p>Media Inquiries</p>
-      <p>© 2018 Intuit, Inc. All rights reserved</p>
-    </div>
-  </footer>
-</body>
-</html>
+    <footer role="contentinfo" class="footer pad-t-1-2 pad-b-1-2 wrapper gutter-1-2">
+        <p class="white-text">Media Inquiries</p>
+        <small class="push-0 micro white-text">© 2018 Intuit, Inc. All rights reserved</small>
+    </footer>
+
+  </body>
+  </html>

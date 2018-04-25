@@ -8,6 +8,7 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
 </head>
 <body>
 
@@ -18,42 +19,43 @@
 
   <header role="banner" class="masthead">
     <nav id="nav" role="navigation" tabindex="0">
-      <h1><img src="thelogo.jpg" alt="Mint"></h1>
+      <img src="thelogo.jpg" alt="Mint">
       <ul class="list-group list-group-inline">
         <li><a class="current" href="index.html">Home</a></li>
         <li><a class="li" href="tour.html">How It Works</a></li>
         <li><a class="li" href="pricing.html">Pricing</a></li>
-        <li><a class="li" href="sign-up.html">Sign Up</a></li>
+        <li class="green-btn btn"><a class="li" href="sign-up.html">Sign Up</a></li>
       </ul>
     </nav>
   </header>
 
   <main id="main" role="main" tabindex="0">
 
-    <div class=" grid contact pad-t-2 pad-b-2">
-      <div class="unit">
+    <div class="grid contact pad-t-2 pad-b-2">
+      <div class="unit xs-1 s-1 m-1 l-1 text-center">
         <div class="max-length">
-          <h1>Free Account Sign Up</h1>
 
           <form class="push-0" method="POST" action="https://formspree.io/lees0029@algonquinlive.com">
 
+            <h1 class="white-text">Free Account Sign Up</h1>
+
             <div class="push">
-              <label for="email">Email Address</label>
+              <label for="email" class="white-text">Email Address</label>
               <input id="email" type="email" name="email" required>
             </div>
 
             <div class="push">
-              <label for="phone">Phone Number</label>
+              <label for="phone" class="white-text">Phone Number</label>
               <input id="phone" type="number" name="number" required>
             </div>
 
             <div class="push">
-              <label for="password">Password</label>
+              <label for="password" class="white-text">Password</label>
               <input id="password" type="password" name="password" required>
             </div>
 
             <div>
-              <button class="btn btn-light mega" type="submit">Create Account</button>
+              <button class="btn mega green-btn" type="submit">Create Account</button>
             </div>
           </form>
         </div>
@@ -63,12 +65,12 @@
 
   <footer role="contentinfo" class="footer pad-t-1-2 pad-b-1-2 wrapper gutter-1-2">
     <section>
-      <div>Download Our Free Mobile App</div>
+      <div class="btn green-btn">Download Our Free Mobile App</div>
     </section>
 
     <section>
-      <p>Media Inquiries</p>
-      <p>© 2018 Intuit, Inc. All rights reserved</p>
+      <p class="white-text">Media Inquiries</p>
+      <p class="white-text">© 2018 Intuit, Inc. All rights reserved</p>
     </section>
   </footer>
 </body>
