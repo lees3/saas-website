@@ -3,12 +3,12 @@ html {
 }
 
 nav {
-  background-color: #260ac1;
+  background-color: #fff;;
   color: #fff;
 }
 
 nav a {
-  color: #fff;
+  color: #260ac1;
   text-decoration: none;
 }
 
@@ -22,17 +22,12 @@ nav a:hover {
 }
 
 .card {
-  /* display: inline-block; */
   background-color: #797775;
   border-left-style: solid;
   border-left-width: thin;
-  /* max-width: 33.333%; */
   text-align: center;
 }
 
-.red {
-  background: red;
-}
 .green-btn:hover {
   background-color: #797775;
 }
@@ -97,6 +92,7 @@ table {
   border-style: solid;
   border-width: medium;
   border-collapse: collapse;
+  background-color: #fff;
 }
 
 td {
@@ -107,6 +103,6 @@ th, td {
   border: 1px solid #260ac1;
 }
 
-.main-index {
+.green-background {
   background-color: #d3f8de;
 }
