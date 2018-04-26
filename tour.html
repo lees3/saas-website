@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>About</title>
+  <title>How It Works</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
@@ -18,8 +18,12 @@
   </ul>
 
   <header role="banner" class="banner masthead">
-    <img src="thelogo.jpg" alt="Mint">
     <nav role="navigation" id="nav" tabindex="0">
+      <div>
+        <i class="icon i-64">
+        <img class="img-flex embed embed-16by9 embed-item" src="images/mint-logo.png" alt="">
+      </i>
+      </div>
       <ul class="list-group list-group-inline">
         <li><a class="current" href="index.html">Home</a></li>
         <li><a class="li" href="tour.html">How It Works</a></li>
@@ -33,7 +37,7 @@
 
     <div class="grid">
       <div class="unit xs-1 s-1 m-1 l-1">
-        <h1>Text</h1>
+        <h1 class="blue-text">How It Works</h1>
         <div class="embed embed-16by9">
           <img class="img-flex embed-item" src="images/iphone-banking-app.jpg" alt="iphone">
         </div>
@@ -53,10 +57,10 @@
     </div>
 
     <div class="grid">
-      <div class="unit xs-1 s-1 m-1 l-1">
-        <div class="table-wrapper scrollable">
+      <div class="unit xs-hidden s-hidden m-1 l-1">
+        <div class="table-wrapper scrollable island">
           <table class="push-0">
-            <caption class="mega">Pricing</caption>
+            <caption class="mega bold normal blue-text">Packages</caption>
 
             <thead>
               <tr>
@@ -70,13 +74,6 @@
             <tbody>
 
               <tr>
-                <th class="not-bold italic" scope="row">Per Month</th>
-                <td>Free</td>
-                <td>$30</td>
-                <td>$60</td>
-              </tr>
-
-              <tr>
                 <th scope="row">User Accounts</th>
                 <td>1</td>
                 <td>10</td>
@@ -84,70 +81,58 @@
               </tr>
 
               <tr>
-                <th scope="row">Forecasts</th>
-                <td>Base Forcast</td>
-                <td>Base Forcast</td>
-                <td>Base Forcast</td>
+                <th scope="row">Cash Summary</th>
+                <td>Weekly</td>
+                <td>Weekly</td>
+                <td>Weekly</td>
               </tr>
             </tbody>
 
-            <tr>
-              <th scope="row">Additional Scenarios</th>
-              <td>5</td>
-              <td>10</td>
-              <td>100</td>
-            </tr>
-
-            <tr>
-              <th scope="row">Future Forcasts</th>
-              <td>3 Years Future Forcasts</td>
-              <td>3 Years Future Forcasts</td>
-              <td>3 Years Future Forcasts</td>
-            </tr>
-
-            <tr>
-              <th scope="row">Cash Summary</th>
-              <td>Weekly</td>
-              <td>Weekly</td>
-              <td>Weekly</td>
-            </tr>
-          </tbody>
-
             <tfoot>
-            <tr>
-              <th scope="row">Support</th>
-              <td>Email</td>
-              <td>Email</td>
-              <td>Primary</td>
-            </tr>
+              <tr>
+                <th scope="row">Support</th>
+                <td>Email</td>
+                <td>Email</td>
+                <td>Primary</td>
+              </tr>
 
-          </tfoot>
+            </tfoot>
           </table>
         </div>
       </div>
     </div>
 
-    <div>
-      <a class=" text-center btn blue-btn" href="#">Sign Up</a>
+    <div class="text-center island">
+      <a class="btn blue-btn" href="#">Sign Up</a>
     </div>
 
   </main>
-  <section>
+  <section class="blue-background text-center">
     <aside role="complementary">
       <div>
         <div class="white-text">Sign up for Mint today</div>
-        <div class="btn green-btn">Sign Up Free</div>
+        <div class="btn green-btn"><a href="sign-up.html">Sign Up Free</a></div>
         <div class="btn blue-btn">Log In</div>
       </div>
 
-      <div>
-        <div class="btn green-btn">Download Our Free Mobile App</div>
-      </div>
+      <section>
+        <div class="white-text">
+          <p>Download the</p>
+        </div>
+        <div class="btn green-btn">Free Mobile App</div>
+      </section>
     </aside>
-
     <footer role="contentinfo" class="footer pad-t-1-2 pad-b-1-2 wrapper gutter-1-2">
       <p class="white-text">Media Inquiries</p>
-      <small class="push-0 micro white-text">© 2018 Intuit, Inc. All rights reserved</small>
+      <i class="icon i-32">
+        <img class="img-flex" src="images/instagram-logo.png" alt="">
+      </i>
+      <i class="icon i-32">
+        <img class="img-flex" src="images/facebook-logo.png" alt="">
+      </i>
+      <div>
+        <small class="push-0 micro white-text">© 2018 Intuit, Inc. All rights reserved</small>
+      </div>
     </footer>
   </section>
 </body>

@@ -14,7 +14,7 @@ nav a {
 
 nav a:hover {
   color: #000;
-  background-color: #77db61;
+  background-color: #d3f8de;
 }
 
 .blue-text {
@@ -35,7 +35,7 @@ nav a:hover {
 }
 
 .green-btn {
-  background-color: #77db61;
+  background-color: #d3f8de;
   color: #000;
   border-style: none;
 }
@@ -49,7 +49,7 @@ nav a:hover {
   background-color: #797775;
 }
 
-footer {
+.blue-background {
   background-color: #260ac1;
 }
 
@@ -90,9 +90,9 @@ textarea {
 
 table {
   min-width: 20em;
-  border-color: #f2f2f2;
+  border-color: #260ac1;
   border-style: solid;
-  border-width: thin;
+  border-width: medium;
   border-collapse: collapse;
 }
 
@@ -101,5 +101,9 @@ td {
 }
 
 th, td {
-  border: 1px solid #f2f2f2;
+  border: 1px solid #260ac1;
+}
+
+.main-index {
+  background-color: #d3f8de;
 }
