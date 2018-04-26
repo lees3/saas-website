@@ -87,3 +87,19 @@ textarea {
   transform: translateX(-50%);
   bottom: 15px;
 }
+
+table {
+  min-width: 20em;
+  border-color: #f2f2f2;
+  border-style: solid;
+  border-width: thin;
+  border-collapse: collapse;
+}
+
+td {
+  height: 5em;
+}
+
+th, td {
+  border: 1px solid #f2f2f2;
+}
