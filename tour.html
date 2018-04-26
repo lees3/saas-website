@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Tour</title>
+  <title>About</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
@@ -10,48 +10,42 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
 </head>
-
 <body>
 
-  <ul class="skip-links tabindex=0">
+  <ul class="skip-links">
     <li><a href="#main">jump to main content</a></li>
     <li><a href="#nav">jump to navigation</a></li>
   </ul>
 
-  <header role="banner" class="masthead">
-    <nav id="nav" role="navigation">
-      <img src="thelogo.jpg" alt="Mint">
+  <header role="banner" class="banner masthead">
+    <img src="thelogo.jpg" alt="Mint">
+    <nav role="navigation" id="nav" tabindex="0">
       <ul class="list-group list-group-inline">
         <li><a class="current" href="index.html">Home</a></li>
         <li><a class="li" href="tour.html">How It Works</a></li>
         <li><a class="li" href="pricing.html">Pricing</a></li>
-        <li class="green-btn btn sign-up"><a class="li" href="sign-up.html">Sign Up</a></li>
+        <li class="btn green-btn sign-up"><a class="li" href="sign-up.html">Sign Up</a></li>
       </ul>
     </nav>
   </header>
 
-  <main id="main" role="main" tabindex="0">
+  <main role="main" id="main" tabindex="0">
 
     <div class="grid">
       <div class="unit xs-1 s-1 m-1 l-1">
-        <div>
-          <img class="img-flex embed embed-16by9 embed-item" src="images/andromeda.jpg" alt="">
-        </div>
         <h1>Text</h1>
-        <div>
-          <h2 class="blue-text">See Everything In One Place</h2>
-          <p>We bring together everything from balances and bills to your credit score and more. It’s your financial life, in one place that’s easy to understand.</p>
+        <div class="embed embed-16by9">
+          <img class="img-flex embed-item" src="images/macbook.jpg" alt="macbook">
         </div>
+        <h2 class="blue-text">See Everything In One Place</h2>
+        <p>We bring together everything from balances and bills to your credit score and more. It’s your financial life, in one place that’s easy to understand.</p>
       </div>
+    </div>
 
-      <div class="unit xs-1 s-1 m-1 l-1">
-        <div>
-          <img class="img-flex embed embed-16by9 embed-item" src="images/andromeda.jpg" alt="">
-        </div>
-        <div>
-          <h2 class="blue-text">Know Where You Stand</h2>
-          <p>The more accounts, cards and bills you link, the more we can help you do. See what you have and what you owe. Understand where money goes and where you can cut back. Create budgets, track investments, discover new ways to save and more.</p>
-        </div>
+    <div class="unit xs-1 s-1 m-1 l-1">
+      <div>
+        <h2 class="blue-text">Know Where You Stand</h2>
+        <p>The more accounts, cards and bills you link, the more we can help you do. See what you have and what you owe. Understand where money goes and where you can cut back. Create budgets, track investments, discover new ways to save and more.</p>
       </div>
     </div>
 
@@ -137,23 +131,28 @@
       </div>
     </div>
 
+    <div>
+      <a class=" text-center btn blue-btn" href="#">Sign Up</a>
+    </div>
+
   </main>
-  <footer role="contentinfo" class="footer pad-t-1-2 pad-b-1-2 wrapper gutter-1-2">
-    <section>
-      <div class="white-text">Sign up for Mint today</div>
-      <div class="btn green-btn">Sign Up Free</div>
-      <div class="btn blue-btn">Log In</div>
-    </section>
+  <section>
+    <aside role="complementary">
+      <div>
+        <div class="white-text">Sign up for Mint today</div>
+        <div class="btn green-btn">Sign Up Free</div>
+        <div class="btn blue-btn">Log In</div>
+      </div>
 
-    <section>
-      <div class="btn green-btn">Download Our Free Mobile App</div>
-    </section>
+      <div>
+        <div class="btn green-btn">Download Our Free Mobile App</div>
+      </div>
+    </aside>
 
-    <section>
+    <footer role="contentinfo" class="footer pad-t-1-2 pad-b-1-2 wrapper gutter-1-2">
       <p class="white-text">Media Inquiries</p>
       <small class="push-0 micro white-text">© 2018 Intuit, Inc. All rights reserved</small>
-    </section>
-  </footer>
-
+    </footer>
+  </section>
 </body>
 </html>
