@@ -22,14 +22,17 @@ nav a:hover {
 }
 
 .card {
-  display: inline-block;
+  /* display: inline-block; */
   background-color: #797775;
   border-left-style: solid;
   border-left-width: thin;
-  max-width: 33.333%;
+  /* max-width: 33.333%; */
   text-align: center;
 }
 
+.red {
+  background: red;
+}
 .green-btn:hover {
   background-color: #797775;
 }
