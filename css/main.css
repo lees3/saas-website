@@ -3,7 +3,7 @@ html {
 }
 
 nav {
-  background-color: #fff;;
+  background-color: #fff;
   color: #fff;
 }
 
@@ -26,6 +26,7 @@ nav a:hover {
   border-left-style: solid;
   border-left-width: thin;
   text-align: center;
+  color: #fff;
 }
 
 .green-btn:hover {
@@ -67,6 +68,7 @@ input,
 select,
 textarea {
   width: 15em;
+  margin: 0 auto;
 }
 
 .banner {
