@@ -23,8 +23,6 @@ nav a:hover {
 
 .card {
   background-color: #797775;
-  border-left-style: solid;
-  border-left-width: thin;
   text-align: center;
   color: #fff;
 }
@@ -37,11 +35,13 @@ nav a:hover {
   background-color: #d3f8de;
   color: #000;
   border-style: none;
+  text-align: center;
 }
 
 .blue-btn {
   background-color: #260ac1;
   border-style: none;
+  text-align: center;
 }
 
 .blue-btn:hover {
